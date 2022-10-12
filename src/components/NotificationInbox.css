@@ -1,0 +1,53 @@
+.notification__inbox__container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    /* height: 600px; */
+    width: 650px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.header__title {
+    display: flex;
+}
+
+.header__notif__count {
+    padding-left: 0.7em;
+}
+
+.read__btn {
+    cursor: pointer;
+}
+
+.read__btn:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.notif__count__btn {
+    background-color: hsl(219, 85%, 26%) !important;
+    color: white;
+    border-radius: 7px;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    cursor: pointer
+}
+
+.notification__inbox__headers {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+} 
+
+.notification__inbox__notifs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 100%;
+}
+
+.notification__inbox__headers button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+} 

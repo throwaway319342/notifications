@@ -1,0 +1,101 @@
+.notification__card {
+    display: flex;
+    min-height: 60px;
+    gap: 1em;
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 7px;
+    color: hsl(219, 12%, 42%)
+}
+
+.profile__pic {
+    width: 8%;
+    cursor: pointer;
+}
+
+.picture {
+    cursor: pointer;
+}
+
+.read {
+    background-color: white;
+}
+
+.unread {
+    background-color: hsl(211, 68%, 94%);
+}
+
+.text--bold {
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+
+.text--bold:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.text--light-grey {
+    color: hsl(211, 68%, 94%)
+}
+
+.text--light-grey2 {
+    color: hsl(205, 33%, 90%)
+}
+
+.text--grey {
+    color: hsl(219, 14%, 63%)
+}
+
+.post__title {
+    font-weight: 700;
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+}
+
+.post__title:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.group__name {
+    color: hsl(219, 85%, 26%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.private__msg {
+    padding: 1em;
+    border-left: 2px solid hsl(211, 68%, 94%);
+    border-right: 2px solid hsl(211, 68%, 94%);
+    border-top: 1px solid hsl(211, 68%, 94%);
+    border-bottom: 1px solid hsl(211, 68%, 94%);
+}
+
+.private__msg:hover {
+    background-color: hsl(205, 33%, 90%);
+    border-radius: 12px;
+}
+
+.action {
+    display: flex;
+    width: 92%;
+    flex-direction: column;
+}
+
+.comment {
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.action__info {
+    /* display: flex; */
+    /* width: 400px; */
+    overflow-wrap: break-word;
+}
+.action__time {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.2em;
+}
